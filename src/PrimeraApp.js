@@ -6,7 +6,7 @@ const PrimeraApp = ({ saludo, subtitulo }) => {
 
     return (
         <Fragment>
-            <h1>{saludo}</h1>
+            <h1> {saludo}!!! </h1>
             {/* <pre>{JSON.stringify(saludo, null, 3)}</pre> */}
             <p>{subtitulo}</p>
         </Fragment>
@@ -19,7 +19,7 @@ PrimeraApp.propTypes = {
 }
 
 PrimeraApp.defaultProps = {
-    subtitulo: "soy un subititulo"
+    subtitulo: "Soy un subititulo"
 }
 
 export default PrimeraApp;
